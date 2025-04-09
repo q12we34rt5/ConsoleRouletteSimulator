@@ -1,5 +1,5 @@
 # Console Roulette Simulator
-A C++ console application that simulates a spinning roulette wheel with customizable options, rendered using ASCII art. Built with a lightweight 3D graphics engine (Q3Engine) and a pixel matrix library, this program displays a rotating wheel with numbered segments and randomly selects a winner.
+A C++ console application that simulates a spinning roulette wheel with customizable options, rendered using ASCII art. Built with a lightweight 3D graphics engine ([Q3Engine](https://github.com/q12we34rt5/Q3Engine-cpp)) and a pixel matrix library, this program displays a rotating wheel with numbered segments and randomly selects a winner.
 
 ## Features
 - **Customizable Roulette:** Define the number of segments, size, spin duration, and animation smoothness.
