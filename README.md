@@ -31,7 +31,7 @@ make
 > **Note:** The build may take a little longer on first run, as all number textures (0–9) are compiled directly into the executable.
 4. Run the executable:
 ```bash
-./roulette <n_numbers> [options]
+clear && ./roulette <n_numbers> [options]
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ The program accepts a positional argument (n_numbers) and several optional argum
 ### Example
 Spin a roulette with 8 segments, a size of 150 pixels, 20 rounds, and 400 steps, using 8x antialiasing:
 ```bash
-./roulette 8 -sz 150 -r 20 -st 400 --aa 8x
+clear && ./roulette 8 -sz 150 -r 20 -st 400 --aa 8x
 ```
 
 ## How It Works
